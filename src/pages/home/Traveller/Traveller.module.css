@@ -1,0 +1,117 @@
+.traveller__section {
+  width: 100%;
+  height: 100vh;
+}
+
+.text__maincontainer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.traveller__text {
+  width: 27%;
+  height: 160px;
+  background-color: rgb(154, 17, 17);
+  text-align: center;
+  line-height: 2.7;
+}
+
+.traveller__heading1 {
+  font-family: ' Lora';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+  color: #c7923e;
+  margin-bottom: 4%;
+}
+
+.traveller__heading2 {
+  height: 116px;
+  width: 100%;
+  left: 336px;
+  top: 4063px;
+  border-radius: undefinedpx;
+  font-family: 'Lora';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.traveller__cards {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding-top: 1%;
+}
+
+.cards__container {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #d6d6d6;
+  gap: 8%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.image__holder {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #304f47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__holder img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.heading__emma {
+  height: 19px;
+  width: 202px;
+  left: 189px;
+  top: 4439px;
+  border-radius: nullpx;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.sentence__emma {
+  height: 115px;
+  width: 249px;
+  left: 166px;
+  top: 4479px;
+  border-radius: nullpx;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  text-align: justified;
+}
+
+
+@media (max-width: 768px){
+
+}
