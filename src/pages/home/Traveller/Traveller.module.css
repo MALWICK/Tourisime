@@ -9,13 +9,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
 }
 
 .traveller__text {
   width: 27%;
   height: 160px;
-  background-color: rgb(154, 17, 17);
   text-align: center;
   line-height: 2.7;
 }
@@ -111,7 +109,71 @@
   text-align: justified;
 }
 
+@media (max-width: 768px) {
+  .traveller__text {
+    width: 90%;
+  }
 
-@media (max-width: 768px){
+  .traveller__heading2 {
+    font-size: 38px;
+  }
 
+  .cards__container {
+    height: 350px;
+    width: 247px;
+  }
+
+  .traveller__cards {
+    gap: 1%;
+    padding-top: 1%;
+  }
+
+  .sentence__emma {
+    height: 115px;
+    width: 100%;
+    font-family: ' Mulish';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .traveller__section {
+    height: fit-content;
+  }
+
+  .traveller__heading2 {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.005em;
+    text-align: center;
+  }
+
+  .traveller__cards {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4%;
+    padding-top: 1%;
+  }
+
+  .traveller__cards {
+    height: fit-content;
+    gap: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .cards__container {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
 }

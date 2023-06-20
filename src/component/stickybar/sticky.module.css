@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   background-color: #304f47;
   color: white;
@@ -104,12 +98,53 @@
   border: 2px solid white;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .sticky {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4%;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(52, 51, 51);
+  }
+
+  .sticky {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+  }
+
+  .contactdetails {
+    width: auto;
+    gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1.4px;
+    line-height: 2;
+  }
+
+  .contactdetails i {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .socialicons {
+    margin-top: 4%;
+    margin-bottom: 2%;
   }
 }

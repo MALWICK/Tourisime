@@ -225,3 +225,13 @@ i {
     width: 262px;
   }
 }
+
+@media(max-width:400px) {
+  .search_inputs {
+    display: none;
+  }
+
+  .booking__holderbtn button {
+    display: none;
+  }
+}
