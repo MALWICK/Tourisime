@@ -11,9 +11,9 @@
   justify-content: center;
 }
 
-.heroabt__textContainer{
-    width: 422px;
-    /* background-color: red; */
+.heroabt__textContainer {
+  width: 422px;
+  /* background-color: red; */
 }
 
 .heroabt__textContainer h1 {
@@ -27,20 +27,18 @@
 }
 
 .heroabt__pcont {
+  text-align: left;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: Lora;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
   letter-spacing: 0.005em;
-  text-align: left;
+  gap: 5%;
   margin-top: 2%;
-  justify-content: space-evenly;
   color: white;
 }
 
 .heroabt__pcont p {
-    color: rgb(204, 148, 8);
+  color: #a07e29;
 }

@@ -1,10 +1,11 @@
 import './App.css';
-import ABout from './pages/About/ABout';
+/* import Contact from './pages/contact/contact'; */
+import Gallery from './pages/Gallery/Gallery';
 
 function App() {
   return (
     <div className="App">
-      <ABout />
+      <Gallery />
     </div>
   );
 }
