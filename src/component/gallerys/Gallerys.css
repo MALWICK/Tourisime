@@ -1,0 +1,28 @@
+.gallerys {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gallerys__container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.first__Gall {
+  width: 1124px;
+  height: 506px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first__Gall img {
+  width: 215.48px;
+  height: 247.12px;
+}
