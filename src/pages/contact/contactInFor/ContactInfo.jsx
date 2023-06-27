@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable react/button-has-type */
-
 import './contactInfo.css';
 import Button from '../../../component/Button/Button';
 import greenFb from '../../../assets/images/green fb.png';
@@ -17,7 +14,7 @@ function contactForm() {
       <header>Contact us</header>
       <div className="contactForm__topInputs">
         <div className="sub">
-          <label htmlFor="firstname">First Name</label>
+          <p>First Name</p>
           <input
             type="text"
             id="firstname"
@@ -25,7 +22,7 @@ function contactForm() {
           />
         </div>
         <div className="sub">
-          <label htmlFor="lastname">Last Name</label>
+          <p>Last Name</p>
           <input
             type="text"
             id="lastname"
@@ -34,21 +31,21 @@ function contactForm() {
         </div>
       </div>
 
-      <label htmlFor="email">Email Address</label>
+      <p>Email Address</p>
       <input
         type="text"
         id="email"
         placeholder="Input your Email Address in Her"
       />
 
-      <label htmlFor="phone">Phone Number</label>
+      <p>Phone Number</p>
       <div className="labelForPhoneNumber">
-        <button>
+        <button type="submit">
           +250 <img src={whiteDownIcon} alt="a_white_down_icon" />
         </button>
         <input type="text" placeholder="Iput your Phone Number" />
       </div>
-      <label htmlFor="message">Message</label>
+      <p>Message</p>
       <textarea name="30" id="message" cols="30" rows="10" />
       <Button text="Submit" color="#c7923e" />
     </form>
