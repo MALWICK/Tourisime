@@ -11,3 +11,10 @@
 .gallerysbtn__container button {
   font-size: large;
 }
+
+@media (max-width: 400px) {
+  .gallerysbtn__container {
+    width: 90%;
+    justify-content: center;
+  }
+}
