@@ -12,8 +12,12 @@
 }
 
 .heroabt__textContainer {
-  width: 422px;
-  /* background-color: red; */
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+/*   background-color: red; */
 }
 
 .heroabt__textContainer h1 {
@@ -22,23 +26,32 @@
   font-weight: 700;
   line-height: 77px;
   letter-spacing: 0.003em;
-  text-align: left;
+  text-align: center;
   color: #fff;
 }
 
 .heroabt__pcont {
-  text-align: left;
+  width: 100%;
+  text-align: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Lora;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
   letter-spacing: 0.005em;
-  gap: 5%;
+  gap: 2%;
   margin-top: 2%;
   color: white;
 }
 
 .heroabt__pcont p {
   color: #a07e29;
+}
+
+@media (max-width: 320px) {
+  .heroabt__pcont {
+    font-size: 20px;
+  }
 }

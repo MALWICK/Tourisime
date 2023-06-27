@@ -7,7 +7,9 @@ function HeroGallery() {
       <div className={styles.heroabt__textContainer}>
         <h1>Gallery</h1>
         <div className={styles.heroabt__pcont}>
-          <span>Home</span>
+          <span>
+            Home <i className="fa-solid fa-caret-right" />
+          </span>
           <p>Gallery</p>
         </div>
       </div>

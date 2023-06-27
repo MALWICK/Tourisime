@@ -5,6 +5,7 @@ import Detail from '../../component/detailnavbar/Detailnavbar';
 import Gallerys from '../../component/gallerys/Gallerys';
 import Footer from '../../component/Footer/Footer';
 import Styles from './Gallery.module.css';
+import GalleryBtn from '../../component/galleryBtn/GalleryBtn';
 
 function Gallery() {
   return (
@@ -12,6 +13,7 @@ function Gallery() {
       <Sticky />
       <Detail />
       <HeroGallery />
+      <GalleryBtn />
       <Gallerys />
       <Footer />
     </div>

@@ -1,0 +1,13 @@
+.gallerysbtn__container {
+  width: 76.5%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.gallerysbtn__container button {
+  font-size: large;
+}
