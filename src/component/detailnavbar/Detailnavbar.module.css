@@ -95,6 +95,7 @@
   .secondnavbar__menulink {
     width: fit-content;
     gap: 10px;
+    justify-content: space-around;
   }
 
   .secondnavbar {
