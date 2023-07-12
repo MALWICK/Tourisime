@@ -17,13 +17,14 @@
   top: 165px;
   border-radius: 0px;
   letter-spacing: 2px;
+  /* background-color: red; */
 }
 
 .hero__container-content {
   display: flex;
   flex-direction: column;
   gap: 200px;
-  /* background-color: green; */
+  background-color: green;
 }
 
 .hero__container_heading {
@@ -51,6 +52,8 @@
   top: 527px;
   border-radius: nullpx;
   margin: 2%;
+  text-align: left;
+  /* background-color: blue; */
 }
 
 .hero__paragraph {

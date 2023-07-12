@@ -13,7 +13,10 @@
 
 .heroabt__textContainer {
   width: 422px;
-  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .heroabt__textContainer h1 {
@@ -27,8 +30,10 @@
 }
 
 .heroabt__pcont {
-  text-align: left;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Lora;
   font-size: 32px;
   font-weight: 700;
@@ -37,8 +42,28 @@
   gap: 5%;
   margin-top: 2%;
   color: white;
+  text-align: left;
 }
 
 .heroabt__pcont p {
   color: #a07e29;
+}
+
+@media(max-width: 600px) {
+
+.heroabt__textContainer {
+  width: 100%;
+}
+
+
+.heroabt__textContainer h1 {
+  font-size: 43px;
+}
+
+
+.heroabt__pcont {
+  font-size: 24px;
+}
+
+
 }

@@ -26,7 +26,7 @@
 }
 
 .afriContainer {
-  width: 80%;
+  width: 83%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .first__welcome {
-  width: 85%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,7 +66,7 @@
 }
 
 .second__welcome {
-  width: 85%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,7 +75,7 @@
 }
 
 .third__welcome {
-  width: 85%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;

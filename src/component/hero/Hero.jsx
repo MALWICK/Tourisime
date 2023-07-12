@@ -9,7 +9,7 @@ function Hero({ text1, text2, spanText }) {
 
       <h3 className="text2">
         {text2}
-        {/*  <img src={goldGoRight} alt="photo_of_a_gold_forward_icon" /> */}
+        <i className="fa-solid fa-caret-right" />
         <span className="spanText">{spanText}</span>
       </h3>
     </div>

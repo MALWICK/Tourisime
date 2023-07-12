@@ -8,6 +8,7 @@ function HeroAbt() {
         <h1>Tour Package</h1>
         <div className={styles.heroabt__pcont}>
           <span>Home</span>
+          <i className="fa-solid fa-caret-right" />
           <p>Tour Package</p>
         </div>
       </div>

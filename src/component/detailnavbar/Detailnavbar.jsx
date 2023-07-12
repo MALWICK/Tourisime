@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Detailnavbar.module.css';
 import maplogo from '../../assets/images/maplogo.jpg';
 import Button from '../Button/Button';
@@ -11,11 +12,19 @@ function Detailnavbar() {
           <img src={maplogo} alt="maplogo" />
         </div>
         <p className={styles.main__link}>Home</p>
-        <a href="#About">About</a>
-        <a href="#Tour Package">Tour Package</a>
-        <a href="#Gallery">Gallery</a>
+        <Link to="/about">
+          <a href="#About">About</a>
+        </Link>
+        <Link to="/tour">
+          <a href="#Tour Package">Tour Package</a>
+        </Link>
+        <Link to="/gallery">
+          <a href="#Gallery">Gallery</a>
+        </Link>
+        <Link to="/contact">
+          <a href="#Contact us">Contact Us</a>
+        </Link>
         <a href="#Blog">Blog</a>
-        <a href="#Contact us">Contact Us</a>
       </div>
 
       <div className={styles.secondnavbar__holderbtn}>
