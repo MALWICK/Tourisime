@@ -11,7 +11,9 @@ function Detailnavbar() {
         <div className={styles.content__holder_image}>
           <img src={maplogo} alt="maplogo" />
         </div>
-        <p className={styles.main__link}>Home</p>
+        <Link to="/">
+          <p className={styles.main__link}>Home</p>
+        </Link>
         <Link to="/about">
           <a href="#About">About</a>
         </Link>
