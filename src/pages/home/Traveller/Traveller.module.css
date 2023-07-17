@@ -140,6 +140,22 @@
   }
 }
 
+@media (max-width: 600px) {
+  .traveller__section {
+    height: fit-content;
+    padding: 2%;
+  }
+
+  .traveller__cards {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .cards__container {
+    margin: 1.8%;
+  }
+}
+
 @media (max-width: 400px) {
   .traveller__section {
     height: fit-content;

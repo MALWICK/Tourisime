@@ -108,6 +108,16 @@
   }
 }
 
+@media (max-width: 600px) {
+  .contactdetails {
+    width: 254px;
+  }
+
+  .contactphonenumber {
+    display: none;
+  }
+}
+
 @media (max-width: 400px) {
   .navbar {
     width: 100%;
