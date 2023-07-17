@@ -23,10 +23,12 @@ function Detailnavbar() {
         <Link to="/gallery">
           <a href="#Gallery">Gallery</a>
         </Link>
-        <Link to="/contact">
+        <Link to="/contact" className={styles.cont}>
           <a href="#Contact us">Contact Us</a>
         </Link>
-        <a href="#Blog">Blog</a>
+        <a href="#Blog" className={styles.blog}>
+          Blog
+        </a>
       </div>
 
       <div className={styles.secondnavbar__holderbtn}>

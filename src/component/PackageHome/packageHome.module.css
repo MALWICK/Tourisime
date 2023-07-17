@@ -154,6 +154,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .package__titles_container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 400px) {
   .package__titles_container {
     height: fit-content;

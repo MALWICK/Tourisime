@@ -134,6 +134,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .hero__container_heading {
+    width: 100%;
+  }
+
+  .hero__heading {
+    font-family: serif;
+    font-size: 41px;
+  }
+}
+
 @media (max-width: 400px) {
   .hero {
     object-fit: cover;
