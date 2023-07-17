@@ -131,6 +131,35 @@
   }
 }
 
+@media (max-width: 600px) {
+  .first__welcome {
+    width: 90%;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+  }
+
+  .second__welcome {
+    width: 90%;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .third__welcome {
+    width: 90%;
+    flex-direction: column;
+    gap: 0%;
+  }
+
+  .image__container img {
+    width: 85%;
+    height: 320px;
+  }
+
+  .afri__text {
+    width: 98%;
+  }
+}
+
 @media (max-width: 450px) {
   .first__welcome {
     width: 100%;
@@ -171,14 +200,12 @@
     height: 320px;
   }
 
-
-.aboubtAfri h1 {
-  font-family: ' Lora';
-  font-size: 37px;
-  font-weight: 700;
-  line-height: 54px;
-  letter-spacing: 0.003em;
-  text-align: center;
-}
-
+  .aboubtAfri h1 {
+    font-family: ' Lora';
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.003em;
+    text-align: center;
+  }
 }

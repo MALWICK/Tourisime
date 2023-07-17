@@ -5,7 +5,7 @@ import './galleryBtn.css';
 function GalleryBtn() {
   return (
     <div className="gallerysbtn__container">
-      <Button text="Open Insatagram" />
+      <Button text="Open Instagram" />
     </div>
   );
 }

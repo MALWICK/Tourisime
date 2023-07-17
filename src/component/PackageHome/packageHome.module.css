@@ -154,9 +154,19 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .package__titles_container {
     width: 100%;
+  }
+
+  .displaycard {
+    height: 577px;
+    width: 80%;
+  }
+
+  .description__text {
+    width: 100%;
+    text-align: left;
   }
 }
 

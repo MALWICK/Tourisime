@@ -12,6 +12,16 @@
   font-size: large;
 }
 
+@media (max-width: 600px) {
+  .gallerysbtn__container {
+    justify-content: center;
+  }
+
+  .Button_button__3iaQG {
+    padding: 16px 14px;
+  }
+}
+
 @media (max-width: 400px) {
   .gallerysbtn__container {
     width: 90%;
