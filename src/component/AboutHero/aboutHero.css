@@ -99,6 +99,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .leftHero__container {
+    font-size: 56px;
+  }
+}
+
 @media (max-width: 400px) {
   .leftHero__container {
     width: 100%;

@@ -155,8 +155,19 @@
   }
 }
 
-@media(max-width: 400Px) {
-  
+@media (max-width: 600px) {
+  .aboutBody__translated {
+    width: 97%;
+    top: -25px;
+    left: 1px;
+  }
+
+  .aboutBody__translated--btn {
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 400px) {
   .aboutBody__translated {
     background-color: #f2f2f2;
     width: 96%;
