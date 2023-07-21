@@ -249,7 +249,7 @@ i {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 375px) {
   .date {
     display: none;
   }

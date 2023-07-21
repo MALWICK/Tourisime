@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-/*   background-color: red; */
+  /*   background-color: red; */
 }
 
 .heroabt__textContainer h1 {
@@ -50,7 +50,7 @@
   color: #a07e29;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .heroabt__pcont {
     font-size: 20px;
   }
