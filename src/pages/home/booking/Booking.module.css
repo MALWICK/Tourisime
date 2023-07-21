@@ -124,7 +124,6 @@ i {
   /*  background-color: green; */
 }
 
-
 .dates {
   height: 40px;
   width: 164px;
@@ -226,12 +225,26 @@ i {
   }
 }
 
-@media(max-width:400px) {
+@media (max-width: 600px) {
+  .booking__container {
+    gap: 11px;
+  }
+
   .search_inputs {
-    display: none;
+    width: 186px;
   }
 
   .booking__holderbtn button {
-    display: none;
+    width: 124px;
+  }
+}
+
+@media (max-width: 450px) {
+  .search_inputs {
+    width: 106px;
+  }
+
+  .booking__holderbtn button {
+    width: 88px;
   }
 }

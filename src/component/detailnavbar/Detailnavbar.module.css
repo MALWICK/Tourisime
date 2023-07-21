@@ -114,17 +114,27 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .blog {
     display: none;
   }
 
-  .cont {
-    display: none;
+  .secondnavbar__menulink {
+    width: 100%;
+    gap: 2px;
+    justify-content: space-around;
+  }
+
+  .secondnavbar__holderbtn {
+    width: 130px;
+  }
+
+  .secondnavbar__holderbtn button {
+    width: 124px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .secondnavbar {
     height: fit-content;
     gap: 2px;
