@@ -178,13 +178,16 @@
   }
 }
 
+@media (max-width: 600px) {
+  .choice__text_container {
+    width: 100%;
+  }
+}
 
-@media(max-width: 400px) {
-
+@media (max-width: 400px) {
   .choice__container {
     height: fit-content;
   }
-  
 
   .choice__text_container {
     height: fit-content;
@@ -195,63 +198,60 @@
     margin-bottom: 10%;
   }
 
+  .choice__text2 {
+    font-family: Lora;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin-top: 5%;
+  }
 
-.choice__text2 {
-  font-family: Lora;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0.005em;
-  text-align: center;
-  margin-top: 5%;
-}
+  .why__choose {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
+  .why__container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+  }
 
-.why__choose {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  .firstReason {
+    font-size: small;
+    margin-bottom: 4%;
+    height: 130px;
+    width: 200px;
+  }
 
-.why__container {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 5%;
-}
+  .secondReason {
+    font-size: small;
+    margin-bottom: 4%;
+    height: 130px;
+    width: 200px;
+  }
 
-.firstReason {
-  font-size: small;
-  margin-bottom: 4%;
-  height: 130px;
-  width: 200px;
-}
+  .thirdReason {
+    font-size: small;
+    margin-bottom: 4%;
+    height: 130px;
+    width: 200px;
+  }
 
-.secondReason {
-  font-size: small;
-  margin-bottom: 4%;
-  height: 130px;
-  width: 200px;
-}
-
-.thirdReason {
-  font-size: small;
-  margin-bottom: 4%;
-  height: 130px;
-  width: 200px;
-}
-
-.fourthReason {
-  font-size: small;
-  margin-bottom: 4%;
-  height: 130px;
-  width: 200px;
-}
-  
+  .fourthReason {
+    font-size: small;
+    margin-bottom: 4%;
+    height: 130px;
+    width: 200px;
+  }
 }

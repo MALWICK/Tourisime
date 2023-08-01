@@ -1,0 +1,123 @@
+.heroAbt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 1%;
+}
+
+.heroAbtContainer {
+  width: 95%;
+  /* background-color: aqua */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftHero {
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: 'Mulish';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.leftHero__container {
+  width: 90%;
+  font-family: 'Lora';
+  font-size: 86px;
+  font-weight: 900;
+  line-height: 84px;
+  letter-spacing: 0.003em;
+  text-align: left;
+  /* background-color: brown; */
+}
+
+.heroP {
+  margin-top: 3%;
+  font-family: 'Mulish';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #515151;
+}
+
+.rightHero {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.rightHero img {
+  width: 650px;
+  height: 782px;
+  object-fit: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .rightHero {
+    display: none;
+  }
+
+  .leftHero {
+    width: 95%;
+  }
+
+  .leftHero__container {
+    width: 100%;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 74px;
+  }
+
+  .heroAbt {
+    height: 500px;
+    background-image: linear-gradient(to right, #36353586, #0000007c),
+      url('../../assets/images/Image\ Placeholder.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    color: #f5eeee;
+  }
+
+  .heroP {
+    color: #fff;
+  }
+}
+
+@media (max-width: 600px) {
+  .leftHero__container {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 400px) {
+  .leftHero__container {
+    width: 100%;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .leftHero {
+    width: 100%;
+  }
+
+  .heroP {
+    color: #fff;
+  }
+}

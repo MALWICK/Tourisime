@@ -43,7 +43,7 @@
 }
 
 .package__displaycards {
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -151,6 +151,22 @@
     align-items: center;
     gap: 2%;
     margin-top: 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  .package__titles_container {
+    width: 100%;
+  }
+
+  .displaycard {
+    height: 577px;
+    width: 80%;
+  }
+
+  .description__text {
+    width: 100%;
+    text-align: left;
   }
 }
 

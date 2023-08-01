@@ -1,0 +1,30 @@
+.gallerysbtn__container {
+  width: 76.5%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.gallerysbtn__container button {
+  font-size: large;
+}
+
+@media (max-width: 600px) {
+  .gallerysbtn__container {
+    justify-content: center;
+  }
+
+  .Button_button__3iaQG {
+    padding: 16px 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallerysbtn__container {
+    width: 90%;
+    justify-content: center;
+  }
+}
